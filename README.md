@@ -1,10 +1,16 @@
 # About this project
 
-<img width="600" src="https://user-images.githubusercontent.com/98110966/190910122-a5d7303c-0ce1-4b21-a9f3-c561661502db.png">
+<p align="center">
+<img width="400" src="https://user-images.githubusercontent.com/98110966/190915808-83c9296e-9a8a-4e19-9b2f-951a85cf2b04.png">
+</p>
 
 # Overview
 
 **Movie Rental Service** is a console-based desktop application that allows its user to manage a movie rental service. It is written in **Python**. This project was done as an assignment for University and should be treated as a display of the ability to juggle with **object-oriented programming concepts**, rather than as a tool that is innovative. **Unit tests** are performed for repository and service layers. A particularity of this project is the implementation of **undo** and **redo** functionalities using a **reverse operation** approach.
+
+FOR VIDEO DEMONSTRATION PLEASE REFER TO THE FOLLOWING ANCHORS:
+
+[Video Demonstration](#video-demonstration)
 
 # Functionalities
 
@@ -35,3 +41,5 @@ All information is input by the user from the keyboard. The user is informed at 
 17. **Undo last operation** - undo functionality for data altering operations
 18. **Redo last operation** - redo functionality for data altering operations
 19. **Exit** - closes the application
+
+# Video Demonstration
