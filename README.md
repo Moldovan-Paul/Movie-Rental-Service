@@ -42,6 +42,8 @@ All information is input by the user from the keyboard. The user is informed at 
 18. **Redo last operation** - redo functionality for data altering operations
 19. **Exit** - closes the application
 
+A client that has a not returned a rental that is passed its due date cannot rent any other movie until returning the first one.
+
 # Input Validation
 
 All user input is validated. Attempting to print an empty local repository will show an appropriate message. This is also the case if a search function has found no matching results. Here are a few examples:
