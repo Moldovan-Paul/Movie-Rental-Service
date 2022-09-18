@@ -35,9 +35,9 @@ All information is input by the user from the keyboard. The user is informed at 
 11. **List all rentals** - prints all active rentals within the local repository to the console
 12. **Search for movie** - given a string, performs a search and prints to the console all movies containing said string within their title
 13. **Search for client** - given a string, performs a search and prints to the console all clients containing said string within their name
-14. **List most rented movies** - prints 
-15. **List most active clients** - prints
-16. **List all late rentals** - prints all rental entities that have a due date that has passed, sorted descending by amount of time
+14. **List most rented movies** - prints all movies ordered descending based on number of days rented to the console
+15. **List most active clients** - prints all clients ordered descending based on total rented time to the console
+16. **List all late rentals** - prints all active rental entities that have a due date that has passed, sorted descending by amount of time since their due date
 17. **Undo last operation** - undo functionality for data altering operations
 18. **Redo last operation** - redo functionality for data altering operations
 19. **Exit** - closes the application
@@ -58,4 +58,16 @@ All user input is validated. Attempting to print an empty local repository will 
 <img width="250" src="https://user-images.githubusercontent.com/98110966/190916174-c7f6b608-6c7d-4499-92d6-d182405ffd10.png">
 </p>
 
+# Save File
+
+Each entity repository can be saved either **in memory**, **to a text file** or **to a binary file**. The file type can be changed through the `settings.properties` file. For in memory storage, assign "inmemory" to the `repository` property. For saving to a text file, assign "textfiles" to the `repository` property. For saving to a binary file, assign "binaryfiles" to the `repository` property. Destination file is chosen by assigning a filepath to the `movies`, `clients` and `rentals` properties. A method adds mock data in memory on application startup; this method should be commented out if in memory storage is not used to avoid a duplicate id exception.
+
+<p align="center">
+<img width="400" src="https://user-images.githubusercontent.com/98110966/190916882-0af2ae09-701b-4e47-bc14-e5a8c4851d30.png">
+</p>
+
+
+
 # Video Demonstration
+
+Mock data was added beforehand in order to be able to show functionalities.
