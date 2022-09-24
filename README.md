@@ -31,7 +31,7 @@ All information is input by the user from the keyboard. The user is informed at 
  7. **List all clients** - prints all clients within the local repository to the console
  8. **Update a client** - updates information about a client within the local repository; the client is identified by id
  9. **Rent a movie** - given a movie id, client id, rent date and due date, a rental entity will be added
-10. **Return a movie** - given the rental id, the rental entity will be removed
+10. **Return a movie** - given the rental id, the rental entity will be given a return date
 11. **List all rentals** - prints all active rentals within the local repository to the console
 12. **Search for movie** - given a string, performs a search and prints to the console all movies containing said string within their title
 13. **Search for client** - given a string, performs a search and prints to the console all clients containing said string within their name
@@ -65,11 +65,30 @@ All user input is validated. Attempting to print an empty local repository will 
 Each entity repository can be saved either **in memory**, **to a text file** or **to a binary file**. The file type can be changed through the `settings.properties` file. For in memory storage, assign "inmemory" to the `repository` property. For saving to a text file, assign "textfiles" to the `repository` property. For saving to a binary file, assign "binaryfiles" to the `repository` property. Destination file is chosen by assigning a filepath to the `movies`, `clients` and `rentals` properties. A method adds mock data in memory on application startup; this method should be commented out if in memory storage is not used to avoid a duplicate id exception.
 
 <p align="center">
-<img width="400" src="https://user-images.githubusercontent.com/98110966/190916882-0af2ae09-701b-4e47-bc14-e5a8c4851d30.png">
+<img width="400" src="https://user-images.githubusercontent.com/98110966/192091109-7a7d4f4e-0c18-4256-bf2d-507fb2c2bd50.png">
 </p>
-
-
+ 
+<p align="center">
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/98110966/192091055-51fbe0fc-b531-4d19-b562-fafc09de5b38.png">
+</p>
 
 # Video Demonstration
 
 Mock data was added beforehand in order to be able to show functionalities.
+
+### Adding, removing and updating movies, undo and redo functionalities
+
+https://user-images.githubusercontent.com/98110966/192090409-14232da1-b46c-42f4-bddb-ec661785a7bd.mp4
+
+### Renting and returning a movie
+
+https://user-images.githubusercontent.com/98110966/192090470-110202dc-ae1c-412b-b951-6afb39e139b1.mp4
+
+### Showing statistics regarding rentals
+
+https://user-images.githubusercontent.com/98110966/192090573-6d2fb694-1045-43a8-b66f-37947832afab.mp4
+
+## Searching for movies and clients by string
+
+https://user-images.githubusercontent.com/98110966/192090748-2f9ee28f-8a06-4d84-83dd-660a2250973f.mp4
+
