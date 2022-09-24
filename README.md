@@ -6,9 +6,9 @@
 
 # Overview
 
-**Movie Rental Service** is a console-based desktop application that allows its user to manage a movie rental service. It is written in **Python**. This project was done as an assignment for University and should be treated as a display of the ability to juggle with **object-oriented programming concepts**, rather than as a tool that is innovative. **Unit tests** are performed for repository and service layers. A particularity of this project is the implementation of **undo** and **redo** functionalities using a **reverse operation** approach.
+**Movie Rental Service** is a console-based desktop application that allows its user to manage a movie rental service. It is written in **Python**. This project was done as an assignment for university and should be treated as a display of the ability to juggle with **object-oriented programming concepts**, rather than as a tool that is innovative. **Unit tests** are performed for repository and service layers. A particularity of this project is the implementation of **undo** and **redo** functionalities using a **reverse operation** approach.
 
-FOR **VIDEO DEMONSTRATION** PLEASE REFER TO THE FOLLOWING ANCHORS:
+FOR **VIDEO DEMONSTRATION** PLEASE REFER TO THE FOLLOWING ANCHOR:
 
 [Video Demonstration](#video-demonstration)
 
@@ -35,9 +35,9 @@ All information is input by the user from the keyboard. The user is informed at 
 11. **List all rentals** - prints all active rentals within the local repository to the console
 12. **Search for movie** - given a string, performs a search and prints to the console all movies containing said string within their title
 13. **Search for client** - given a string, performs a search and prints to the console all clients containing said string within their name
-14. **List most rented movies** - prints all movies ordered descending based on number of days rented to the console
-15. **List most active clients** - prints all clients ordered descending based on total rented time to the console
-16. **List all late rentals** - prints all active rental entities that have a due date that has passed, sorted descending by amount of time since their due date
+14. **List most rented movies** - prints all movies in descending order based on number of days rented to the console
+15. **List most active clients** - prints all clients in descending order based on total rented time to the console
+16. **List all late rentals** - prints all active rental entities that have a due date that has passed, in descending order by amount of time since their due date
 17. **Undo last operation** - undo functionality for data altering operations
 18. **Redo last operation** - redo functionality for data altering operations
 19. **Exit** - closes the application
@@ -62,7 +62,7 @@ All user input is validated. Attempting to print an empty local repository will 
 
 # Save File
 
-Each entity repository can be saved either **in memory**, **to a text file** or **to a binary file**. The file type can be changed through the `settings.properties` file. For in memory storage, assign "inmemory" to the `repository` property. For saving to a text file, assign "textfiles" to the `repository` property. For saving to a binary file, assign "binaryfiles" to the `repository` property. Destination file is chosen by assigning a filepath to the `movies`, `clients` and `rentals` properties. A method adds mock data in memory on application startup; this method should be commented out if in memory storage is not used to avoid a duplicate id exception.
+Each entity repository can be saved either **in memory**, **to a text file** or **to a binary file**. The file type can be changed through the `settings.properties` file. For in memory storage, assign "inmemory" to the `repository` property. For saving to a text file, assign "textfiles" to the `repository` property. For saving to a binary file, assign "binaryfiles" to the `repository` property. Destination file is chosen by assigning a file path to the `movies`, `clients` and `rentals` properties. A method adds mock data in memory on application startup; this method should be commented out if in memory storage is not used to avoid a duplicate id exception.
 
 <p align="center">
 <img width="400" src="https://user-images.githubusercontent.com/98110966/192091109-7a7d4f4e-0c18-4256-bf2d-507fb2c2bd50.png">
