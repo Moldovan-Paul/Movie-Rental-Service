@@ -65,10 +65,12 @@ All user input is validated. Attempting to print an empty local repository will 
 Each entity repository can be saved either **in memory**, **to a text file** or **to a binary file**. The file type can be changed through the `settings.properties` file. For in memory storage, assign "inmemory" to the `repository` property. For saving to a text file, assign "textfiles" to the `repository` property. For saving to a binary file, assign "binaryfiles" to the `repository` property. Destination file is chosen by assigning a filepath to the `movies`, `clients` and `rentals` properties. A method adds mock data in memory on application startup; this method should be commented out if in memory storage is not used to avoid a duplicate id exception.
 
 <p align="center">
-<img width="400" src="https://user-images.githubusercontent.com/98110966/190916882-0af2ae09-701b-4e47-bc14-e5a8c4851d30.png">
+<img width="400" src="https://user-images.githubusercontent.com/98110966/192091109-7a7d4f4e-0c18-4256-bf2d-507fb2c2bd50.png">
 </p>
-
-
+ 
+<p align="center">
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/98110966/192091055-51fbe0fc-b531-4d19-b562-fafc09de5b38.png">
+</p>
 
 # Video Demonstration
 
