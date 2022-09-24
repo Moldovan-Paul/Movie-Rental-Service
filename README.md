@@ -31,7 +31,7 @@ All information is input by the user from the keyboard. The user is informed at 
  7. **List all clients** - prints all clients within the local repository to the console
  8. **Update a client** - updates information about a client within the local repository; the client is identified by id
  9. **Rent a movie** - given a movie id, client id, rent date and due date, a rental entity will be added
-10. **Return a movie** - given the rental id, the rental entity will be removed
+10. **Return a movie** - given the rental id, the rental entity will be given a return date
 11. **List all rentals** - prints all active rentals within the local repository to the console
 12. **Search for movie** - given a string, performs a search and prints to the console all movies containing said string within their title
 13. **Search for client** - given a string, performs a search and prints to the console all clients containing said string within their name
@@ -73,3 +73,20 @@ Each entity repository can be saved either **in memory**, **to a text file** or 
 # Video Demonstration
 
 Mock data was added beforehand in order to be able to show functionalities.
+
+### Adding, removing and updating movies, undo and redo functionalities
+
+https://user-images.githubusercontent.com/98110966/192090409-14232da1-b46c-42f4-bddb-ec661785a7bd.mp4
+
+### Renting and returning a movie
+
+https://user-images.githubusercontent.com/98110966/192090470-110202dc-ae1c-412b-b951-6afb39e139b1.mp4
+
+### Showing statistics regarding rentals
+
+https://user-images.githubusercontent.com/98110966/192090573-6d2fb694-1045-43a8-b66f-37947832afab.mp4
+
+## Searching for movies and clients by string
+
+https://user-images.githubusercontent.com/98110966/192090748-2f9ee28f-8a06-4d84-83dd-660a2250973f.mp4
+
