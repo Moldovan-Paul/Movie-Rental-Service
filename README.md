@@ -6,7 +6,7 @@
 
 # Overview
 
-**Movie Rental Service** is a console-based desktop application that allows its user to manage a movie rental service. It is written in **Python**. This project was done as an assignment for university and should be treated as a display of the ability to juggle with **object-oriented programming concepts**, rather than as a tool that is innovative. **Unit tests** are performed for repository and service layers. A particularity of this project is the implementation of **undo** and **redo** functionalities using a **reverse operation** approach.
+**Movie Rental Service** is a console-based desktop application that allows its user to manage movie rental services. It is written in **Python**. This project was done as an assignment for university and should be treated as a display of the ability to juggle with **object-oriented programming concepts**, rather than as a tool that is innovative. **Unit tests** are performed for repository and service layers. A particularity of this project is the implementation of **undo** and **redo** functionalities using a **reverse operation** approach.
 
 FOR **VIDEO DEMONSTRATION** PLEASE REFER TO THE FOLLOWING ANCHOR:
 
